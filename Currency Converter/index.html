@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div class="main">
+        <form>
+            <div class="enter">
+                <p>Enter Amount:   </p>
+            <input>
+            </div>
+            
+            <div class="image">
+                    <img src="https://flagsapi.com/AE/flat/64.png" class = "from-image">
+                
+                   <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                
+                
+                    <img src="https://flagsapi.com/AE/flat/64.png" class = "to-image">
+                
+
+            </div>
+            <div class="image-text">
+                <p id = "from-text">AED</p>
+                <p id = "to-text">AED</p>
+            </div>
+            
+            
+            <div class="choose">
+                <div class="from-curr">
+                    <select name = "from-currency" id = "from-currency">
+                    
+                    </select>
+                </div>
+                <div class="to-curr">
+                    <select name = "to-currency" id ="to-currency">
+
+                    </select>
+                </div>
+                
+                
+
+            </div>
+            <div class="rate">
+                    1 USD = 90 INR
+                </div>
+
+
+        <button type="submit">Calculate</button>            
+        </form>
+    </div>
+    <script src="index.js" type="module"></script>
+    <script src = "codes.js" type = "module"></script>
+</body>
+</html>
